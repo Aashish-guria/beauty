@@ -1,0 +1,1398 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'Times New Roman Cyr';
+    src: url('../fonts/TimesNRCyrMT.woff2') format('woff2'),
+        url('../fonts/TimesNRCyrMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times';
+    src: url('../fonts/Times-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Times-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('../fonts/TimesNewRomanPS-ItalicMT.woff2') format('woff2'),
+        url('../fonts/TimesNewRomanPS-ItalicMT.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Times New Roman Cyr';
+    src: url('../fonts/TimesNRCyrMT-Bold.woff2') format('woff2'),
+        url('../fonts/TimesNRCyrMT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-BlackItalic.woff2') format('woff2'),
+        url('Mulish-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Mulish-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Black.woff2') format('woff2'),
+        url('../fonts/Mulish-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Mulish-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Mulish-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Bold.woff2') format('woff2'),
+        url('../fonts/Mulish-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-LightItalic.woff2') format('woff2'),
+        url('../fonts/Mulish-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Light.woff2') format('woff2'),
+        url('../fonts/Mulish-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Mulish-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Italic.woff2') format('woff2'),
+        url('../fonts/Mulish-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Mulish-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Mulish-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Medium.woff2') format('woff2'),
+        url('../fonts/Mulish-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-Regular.woff2') format('woff2'),
+        url('../fonts/Mulish-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Mulish-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish-SemiBold.woff2') format('woff2'),
+        url('../fonts/Mulish-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Signarita Zhai';
+    src: url('../fonts/SignaritaZhai.woff2') format('woff2'),
+        url('../fonts/SignaritaZhai.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Joane';
+    src: url('../fonts/Joane-Black.woff2') format('woff2'),
+        url('../fonts/Joane-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane';
+    src: url('../fonts/Joane-Bold.woff2') format('woff2'),
+        url('../fonts/Joane-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane Deco';
+    src: url('../fonts/JoaneDeco-Regular.woff2') format('woff2'),
+        url('../fonts/JoaneDeco-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane';
+    src: url('../fonts/Joane-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Joane-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane Engraved';
+    src: url('../fonts/JoaneEngraved-Regular.woff2') format('woff2'),
+        url('../fonts/JoaneEngraved-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane';
+    src: url('../fonts/JoaneItalic-Black.woff2') format('woff2'),
+        url('../fonts/JoaneItalic-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane';
+    src: url('../fonts/JoaneItalic-Bold.woff2') format('woff2'),
+        url('../fonts/JoaneItalic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane';
+    src: url('../fonts/JoaneItalic-ExtraLight.woff2') format('woff2'),
+        url('../fonts/JoaneItalic-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane';
+    src: url('../fonts/JoaneItalic-Light.woff2') format('woff2'),
+        url('../fonts/JoaneItalic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane';
+    src: url('../fonts/JoaneItalic-Regular.woff2') format('woff2'),
+        url('../fonts/JoaneItalic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane';
+    src: url('../fonts/JoaneItalic-Thin.woff2') format('woff2'),
+        url('../fonts/JoaneItalic-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane';
+    src: url('../fonts/JoaneItalic-SemiBold.woff2') format('woff2'),
+        url('../fonts/JoaneItalic-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Joane';
+    src: url('../fonts/JoaneItalic-Ultrabold.woff2') format('woff2'),
+        url('../fonts/JoaneItalic-Ultrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('../fonts/Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Italic.woff2') format('woff2'),
+        url('../fonts/Montserrat-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Montserrat-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+        url('../fonts/Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-LightItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('../fonts/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Montserrat-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+
+        /*------- top navigation ------*/
+
+
+.top_navbar{
+    background-color: #FBAB18;
+    padding: 10px 0px 10px 0px;
+}
+.navbar_heading{
+    font-size: 27px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+}
+
+
+        /* ---------- center Navigation ------- */
+
+.pt-10{
+    padding-top: 20px;
+}
+.background_pink{
+    background-color:#F7F7F7;
+}
+.nav_row_Set a{
+    font-size: 16px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 400;
+    margin: 0px 0px 0px 0px;
+}
+.nav_row_Set .contact_btn{
+    margin-right: 30px;
+}
+.search_icon{
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 20px;
+    color: #000000;
+}
+.shopping_icon{
+    background-color: #F2D7D5;
+    border: 1px solid #F2D7D5;
+    border-radius: 24px;
+    padding: 5px 5px 5px 5px;
+    color: #000000;
+}
+.nav_row_Set a:hover{
+    color: #E74C3C;
+}
+
+
+
+            /* --------------- bottom header ------- */
+
+
+
+.banner_btm{
+    background-color: #F7F7F7;
+}
+.banner_btm .sign_heading{
+    font-size: 35px;
+    font-family: 'Signarita Zhai';
+    font-weight: 400;
+    color: #FBAB18 ; 
+    margin-bottom: -6px;
+}
+.banner_btm_set .banner_heading{
+    font-size: 51px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 700;
+    
+}
+.banner_btm_set span{
+    font-size: 89px;
+    color: #7C3C2A;
+}
+.banner_btm_set .banner-para{
+    font-family: 'Mulish';
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px 0px 0px 0px ;
+}
+.making_set{
+    padding:120px 0px 30px 60px;
+}
+
+.header_btn{
+    padding-top: 10px;
+}
+.banner_btm_set .btn-shop{
+    color:#ffffff;
+    border: 1px solid #FBAB18;
+    border-radius: 24px;
+    padding: 10px 30px 10px 30px;
+    background-color: #FBAB18;
+    font-family: 'Mulish';
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.btn-shop:hover{
+    background-color: #7C3C2A;
+    border: 1px solid #7C3C2A;
+}
+.banner_btm_set .btn-Explore{
+    border: 1px solid #000000;
+    border-radius: 24px;
+    padding: 10px 40px 10px 40px;
+    background-color: #fff;
+    font-family: 'Mulish';
+    font-size: 19px;
+    font-weight: 600;
+}
+.btn-Explore:hover{
+    background-color: #FBAB18;
+    color: #000000;
+    border: 1px solid #FBAB18;
+}
+
+.bner_top{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.bner_top_yellow{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+                /* ------- selection section -----*/
+
+.selection_set .best_heading{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 161px;
+    letter-spacing: 24px;
+    z-index: -1;
+    color:#D5DBDB;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 700;
+    
+}
+.selection_section{
+    padding: 60px 0px 60px 0px;
+}
+.selection_section .seclection_heading{
+    color: #000000;
+    font-size: 50px;
+    padding-top: 84px;
+    
+}
+.selection_section span{
+    font-size:50px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 400;
+    line-height: 60px;
+    color: #7C3C2A;
+}
+.seclection_heading img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.best_img img{
+    position: absolute;
+    bottom: -34px;
+    right: 254px;
+    height: 21px;
+    width: 356px;
+}
+.selection_set .best_img_top{
+    position: absolute;
+    top: -70px;
+    right: -20px;
+    width:1016px ;
+    height: 50px;
+}
+
+
+        /*------- card box section -----*/
+
+
+ .card_box_section .btn-shop{
+    color:#ffffff;
+    border: 1px solid #FBAB18;
+    border-radius: 24px;
+    padding: 10px 30px 10px 30px;
+    background-color: #FBAB18;
+    font-family: 'Mulish';
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 20px;
+ }  
+ .card_box_section .btn-shop:hover{
+    background-color: #7C3C2A;
+    border: 1px solid #7C3C2A;
+}     
+.card_img{
+    position: relative;
+}
+.card_content{
+    display: none;
+    color: #ffffff;
+    font-size: 51px;
+    font-family: 'Times New Roman Cyr';
+    font-style: italic;
+    font-weight: 700;
+}
+.card_img:hover .card_content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.60);
+}
+
+
+
+            /*----------commitments section ----------*/
+
+.commitment_section{
+    padding: 100px 0px 100px 0px;
+}
+
+.commitment_Set .commit_heading{
+    font-size: 50px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 400;
+}
+.commitment_Set .commit_back{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 152px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 700;
+    z-index: -1;
+    color:#D5DBDB;
+    letter-spacing: 4px;
+}
+
+
+
+
+
+.commit_row_set i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}    
+.commit_row_set h2{
+    padding: 20px 0px 0px 0px;
+    font-size: 20px;
+    font-family: 'Mulish';
+    font-weight: 500;
+    line-height: 22px;
+}
+.commit_row_set a{
+    font-size: 70px;
+    background-color: #FBAB18;
+    border: 1px solid #FBAB18;
+    color: #fff;
+    width: 146px;
+    height: 146px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.commit_row_set img{
+    width: auto;
+}
+
+
+
+            /* -----------collection section -------------*/
+.collection_section{
+    padding: 100px 0px 100px 0px;
+}         
+.collection_Set .wild_heading{
+    font-size: 50px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 400;
+    line-height: 60px;
+    color: #000000;
+    padding: 32px 0px 0px 0px;
+    
+}
+.collection_Set span{
+    color:#9B3434;
+}
+.collection_Set .collection_heading {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 152px;
+    letter-spacing:10px;
+    z-index: -1;
+    color:#D5DBDB;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 700;
+}   
+.collection_img img{
+    position: absolute;
+    bottom: -20px;
+     right: 220px;
+     height: 14px;
+     width: 236px;
+}
+
+
+
+        /* -------- Price_section ----------*/
+
+.price_section{
+    padding: 50px 0px 50px 0px;
+}
+.price_text .price_heading{
+    font-size: 17px;
+    font-family: 'Mulish';
+    font-weight: 500;
+    line-height: 28px;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.price_heading:hover{
+    color:#9B3434;
+}
+.rating_star{
+    color: #FBAB18;
+    padding: 10px 0px 0px 0px;
+}
+
+.price_text .price_para{
+    font-size: 17px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    line-height: 28px;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+            /* ---------- WHY CHOOSE US --------*/
+
+.choose_section{
+    padding: 100px 0px 100px 0px;
+}
+.choose_set .choose_heading{
+    font-size: 50px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 400;
+    color: #000000;
+    line-height: 29px;
+}
+.choose_set .Why_us{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 136px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 700;
+    line-height: 163px;
+    z-index: -1;
+    color:#D5DBDB;
+    letter-spacing: 15px;
+}
+.choose_img img{
+    position: absolute;
+    bottom: -36px;
+     right: 368px;
+     height: 14px;
+     width: 219px;
+}
+
+
+
+
+            /* --------- fashion_section --------- */
+.fashion_section{
+    padding: 100px 0px 100px 0px;
+}
+.fashion_set .fashion_heading{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    padding: 20px 0px 0px 0px;
+}  
+.fashion_set .fashion_para{
+    font-size: 18px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    padding: 10px 0px 0px 0px;
+    line-height: 28px;
+}     
+
+
+
+        /* ------- testimonail_section ------- */
+
+
+.testimonail_section{
+    padding: 50px 0px 50px 0px;
+}
+
+
+.testimonail_set .testimonail_heading{
+    font-size: 50px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 400;
+    padding: 10px 0px 0px 0px;
+}
+
+.testimonail_set .testimonail_para{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    font-size: 136px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 700;
+    letter-spacing: 12px;
+    color:#D5DBDB;
+}
+.Testimonail_img img{
+    position: absolute;
+    bottom: -36px;
+     right: 330px;
+     height: 14px;
+     width: 219px;
+}
+
+
+
+
+            /*----------client row_section ----------*/
+
+
+
+.client_row_section{
+    padding: 50px 0px 0px 0px;
+}
+.client_row .client_img{
+    padding: 10px 0px 0px 0px;
+}   
+.client_text .client_heading{
+    font-size: 18px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    padding: 14px 0px 0px 0px;
+    color: #000000;
+}
+.client_text .client_para{
+    font-size: 18px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    padding: 10px 0px 0px 0px;
+    color: #000000;
+}
+.client_row a{
+    padding: 0px 15px 0px 0px;
+}
+.client_row .fa-star{
+    color:#FBAB18;
+    font-size: 14px;
+}
+
+.client_border {
+    border: 3px solid #8E5801;
+    border-radius: 8px;
+    background-color: #FDEDEC;
+}
+.client_img_text{
+    padding: 10px 18px 10px 18px;
+}
+.client_See {
+    padding: 60px 0px 50px 0px;
+}
+.client_See a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Mulish';
+    font-weight: 500;
+    line-height: 28px;
+}
+.client_See a:hover{
+    color:#FBAB18;
+}
+
+
+
+
+                /* ------------easy_section ---------------*/
+
+.easy_step_section{
+    padding: 50px 0px 50px 0px;
+    border-top: 8px solid #F7A19B;
+    border-bottom: 8px solid #F7A19B ;
+}  
+
+.easy_set .easy_heading{
+    font-size: 50px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 700;
+    font-style: italic;
+    line-height: 60px;
+    color: #9B3434;
+}
+.easy_list li{
+    font-size: 18px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    line-height: 28px;
+    padding: 4px 0px 0px 0px;
+}
+
+
+
+
+
+.img_set{
+    padding: 10px 0px 0px 0px;
+}
+.img_set a{
+        font-size: 70px;
+    background-color: #FBAB18;
+    border: 1px solid #FBAB18;
+    color: #fff;
+    width: 140px;
+    height: 140px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+
+}
+.img_set img{
+    width: auto;
+}
+
+.img_set .easy_row_heading{
+    font-size: 25px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    line-height: 28px;
+    padding: 15px 0px 0px 0px;
+}
+.img_set .easy_row{
+    padding: 0px 50px 0px 0px;
+}
+
+
+
+
+            /* -------------- form section -----------*/
+.form_Set .form_heading{
+    font-size: 62px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 400;
+    color: #312622;
+    padding: 170px 0px 0px 0px;
+}
+.form_Set .form_para{
+    font-size: 18px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    line-height: 28px;
+    padding: 10px 0px 0px 0px;
+}
+
+.form_btn{
+    padding: 20px 0px 0px 0px;
+}
+.form_Set input{
+    padding: 12px 10px 12px 10px;
+    text-align: left;
+    border: 1px solid #D5DBDB;
+    background-color: #D5ACB1;
+}
+
+.form_Set .submit_btn{
+    background-color: #FF9D00;
+    padding: 7px 14px 10px 14px;
+    margin: 0px 0px 0px -6px;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Mulish';
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.submit_btn:hover{
+    background-color:#E74C3C ;
+}
+
+
+        /* ------------ frequently_section ----------*/
+
+
+.Frequently_section{
+    padding: 100px 0px 100px 0px;
+    background-color: #FDEDEC;
+}
+.Frequently_set .Frequently_heading{
+    font-size: 50px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 400;
+    color: #000000;
+    line-height: 29px;
+}
+.Frequently_set .Frequently_asked{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:80px;
+    font-family: 'Times New Roman Cyr';
+    font-weight: 700;
+    line-height: 163px;
+    z-index: -1;
+    color:#D5DBDB;
+    letter-spacing: 12px;
+}        
+
+
+.accordion_set{
+    padding: 60px 0px 0px 0px;
+    background-color: #FDEDEC;
+}
+
+.accordion-item{
+    background-color: #FDEDEC;
+}
+.accordion .accordion-button{
+    font-size: 20px;
+    font-family: 'Mulish';
+    font-weight: 500;
+    color: #000000;
+}
+
+
+
+        /* ------- footer_section--------*/
+.footer_Section{
+    padding:50px 0px 100px 0px;
+}
+.footer_row img{
+    padding: 8px 0px 0px 0px;
+}
+.footer_row{
+    padding: 20px 0px 0px 0px;
+}
+.footer_row .footer_heading{
+    font-family: 'Montserrat';
+    font-size: 19px;
+    font-weight: 400;
+    padding: 20px 0px 0px 0px;
+}
+.footer_list .list_heading{
+    font-family: 'Joane';
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0px 0px 20px 0px;
+}
+.footer_list .list_heading:hover{
+    color:#E74C3C;
+}
+
+.footer_list li {
+    list-style-type: none;
+    padding: 12px 0px 0px 0px;
+}
+
+.footer_list a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.footer_list .list_icon:hover{
+    color:  #FBAB18;
+}
+
+.footer_icons a{
+   font-size: 30px;
+   padding: 0px 15px 0px 0px;
+}
+
+.footer_icons .facebook_color:hover{
+    color:#4267B2;
+}
+.footer_icons .instagram_color:hover{
+    color:#E1306C;
+}
+
+.footer_icons .linkedin_color:hover{
+    color: #0a66c2;
+}
+.footer_icons .youtube_color:hover{
+    color: #FF0000;
+}
+.footer_list .address_set{
+    font-family: 'Montserrat';
+    font-size: 19px;
+    font-weight: 500;
+    padding: 36px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer_list .address_para                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              {
+    margin: 0px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-size: 19px;
+    font-weight: 400;      
+    padding: 14px 0px 0px 0px;                                                                                                                         
+}
+
+.footer_Section{
+    position: relative;
+}
+
+.footer_Section .bottom_img {
+    position:absolute;
+    bottom: -4px;
+    right: 0px;
+    width: 108px;
+    height:131px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+                /* ----------- bottom_footer ---------*/
+
+.bottom_footer{
+    padding: 10px 0px 10px 0px;
+    border-top: 4px solid #95696E;
+   
+}
+.btm_footer_Set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btm_footer_Set .copyright_heading{
+    font-size: 22px;
+    font-family: 'Mulish';
+    font-weight: 500;
+    color: #000000;   
+}
+
+
+.btm_pay_icon a{
+    font-size: 38px;
+    color: #000000;
+    padding: 0px 0px 0px 30px;
+}
+
+.btm_pay_icon .visa_color{
+    color: #1434CB;
+}
+.btm_pay_icon .card_color{
+    color:  #EB001B;
+}
+.btm_pay_icon .bank_color{
+    color: #3f413a;
+}
+.btm_pay_icon .color_paypal{
+    color: #009cde;
+}
+.btm_pay_icon .color_eway{
+    color: #f4ae01;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1400px){
+    .mobile_logo{
+        display: none;
+}
+}
+
+@media (max-width:1200px){
+    .mobile_logo{
+        display: none;
+}
+
+.nav_row_Set a {
+    font-size: 15px;
+}
+.banner_btm_set .banner_heading{
+    font-size: 48px;
+}
+.banner_btm_set span {
+    font-size: 78px;
+}
+.banner_btm_set .banner-para{
+    font-size: 18px;
+}
+.banner_btm_set .btn-shop{
+    font-size: 18px;
+}
+.banner_btm_set .btn-Explore{
+    font-size: 18px;
+}
+}
+
+@media (max-width:1140px){
+    .mobile_logo{
+        display: none;
+}
+.nav_row_Set a {
+    font-size: 14px;
+}
+.top-nav-set h3 {
+    font-size: 26px;
+}
+.banner_btm_set .banner_heading {
+    font-size: 46px;
+}
+.banner_btm_set span {
+    font-size: 73px;
+}
+.banner_btm_set .banner-para {
+    font-size: 17px;
+}
+.selection_section .seclection_heading {
+    font-size: 46px;
+}
+}
+
+
+@media (max-width:1080px){
+    .mobile_logo{
+        display: none;
+}
+.top-nav-set h3 {
+    font-size: 24px;
+}
+.nav_row_Set a {
+    font-size: 13px;
+}
+.banner_btm_set .banner_heading {
+    font-size: 42px;
+}
+.banner_btm_set span {
+    font-size: 68px;
+}
+.banner_btm_set .banner-para {
+    font-size: 16px;
+}
+.selection_section .seclection_heading {
+    font-size: 44px;
+}
+}
+
+@media (max-width:992px){
+    .mobile_logo{
+        display: none;
+}
+.nav_row_Set a {
+    font-size: 11px;
+}
+    .nav_row_Set img{
+        width: 90%;
+    }
+}
+
+@media (max-width:991px){
+    .desktop_logo{
+        display: none;
+    }
+}
