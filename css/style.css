@@ -1299,6 +1299,7 @@
 
 
 
+
 @media (max-width:1400px){
     .mobile_logo{
         display: none;
@@ -1328,6 +1329,29 @@
 .banner_btm_set .btn-Explore{
     font-size: 18px;
 }
+.selection_set .best_heading {
+    font-size: 95px;
+}
+.selection_section .seclection_heading {
+    font-size: 45px;
+}
+.best_img img {
+    right:218px;
+}
+
+.commitment_Set .commit_back {
+    font-size: 120px;
+}
+.collection_Set .collection_heading {
+    font-size: 130px;
+}
+.collection_Set .wild_heading {
+    font-size: 45px;
+}
+
+.testimonail_set .testimonail_para {
+    font-size: 130px;
+}
 }
 
 @media (max-width:1140px){
@@ -1349,21 +1373,103 @@
 .banner_btm_set .banner-para {
     font-size: 17px;
 }
-.selection_section .seclection_heading {
-    font-size: 46px;
+.selection_set .best_heading {
+    font-size: 88px;
 }
+.selection_section .seclection_heading {
+    font-size: 45px;
 }
 
+.best_img img {
+    right: 187px;
+}
+.commit_row_set a {
+    font-size: 64px;
+    width: 142px;
+    height: 142px;
+}
+.collection_Set .collection_heading {
+    font-size: 126px;
+}
+.collection_img img {
+    right: 173px;
+}
+.price_text .price_heading {
+    font-size: 14px;
+}
+.price_text .price_para {
+    font-size: 14px;
+    padding: 5px 0px 0px 0px;
+}
+.choose_img img {
+    right: 277px;
+}
+.rating_star {
+    padding: 5px 0px 0px 0px;
+}
+.fashion_set .fashion_heading {
+    font-size: 19px;
+}
+
+.fashion_set .fashion_para {
+    font-size: 16px;
+}
+.testimonail_set .testimonail_para {
+    font-size: 126px;
+}
+
+.testimonail_set .testimonail_heading {
+    font-size: 45px;
+}
+
+.easy_list li {
+    font-size: 16px;
+}
+.img_set .easy_row_heading {
+    font-size: 19px;
+}
+.form_Set .form_heading {
+    font-size: 58px;
+}
+.form_Set input {
+    padding: 10px 10px 10px 10px;
+}
+.form_Set .submit_btn {
+    padding: 7px 14px 8px 14px;
+    font-size: 20px;
+}
+
+.footer_row .footer_heading {
+    font-size: 18px;
+
+}
+.footer_list .list_heading {
+    font-size: 20px;
+}
+.footer_list a {
+    font-size: 16px;
+}
+.footer_list .address_set {
+    font-size: 18px;
+}
+.footer_list .address_para {
+    font-size: 16px;
+}
+.btm_footer_Set .copyright_heading {
+    font-size: 20px;
+}
+}
 
 @media (max-width:1080px){
-    .mobile_logo{
-        display: none;
-}
-.top-nav-set h3 {
-    font-size: 24px;
+    .navbar_heading {
+        font-size: 24px;
 }
 .nav_row_Set a {
-    font-size: 13px;
+    font-size: 12px;
+}
+.banner_btm .sign_heading {
+    font-size: 30px;
+    margin-bottom: -15px;
 }
 .banner_btm_set .banner_heading {
     font-size: 42px;
@@ -1374,25 +1480,578 @@
 .banner_btm_set .banner-para {
     font-size: 16px;
 }
+.banner_btm_set .btn-shop {
+    font-size: 16px;
+}
+.banner_btm_set .btn-Explore {
+    font-size: 16px;
+}
+.bner_top_yellow {
+    position: absolute;
+    top: 17px;
+    right: 13px;
+}
+.bner_top {
+    position: absolute;
+    top: 50px;
+    right: 11px;
+}
+
+.selection_set .best_heading {
+    font-size: 81px;
+}
 .selection_section .seclection_heading {
-    font-size: 44px;
+    font-size: 38px;
+}
+.best_img img {
+    right: 199px;
+    width: 241px;
+}
+.commitment_Set .commit_back {
+    font-size: 110px;
+}
+.commitment_Set .commit_heading {
+    font-size: 45px;
+}
+.commit_row_set a {
+    font-size: 56px;
+    width: 134px;
+    height: 134px;
+}
+.commit_row_set h2 {
+    font-size: 18px;
+}
+.collection_section {
+    padding: 50px 0px 50px 0px;
+}
+
+.collection_Set .collection_heading {
+    font-size: 115px;
+}
+.collection_Set .wild_heading {
+    font-size: 40px;
+    padding: 68px 0px 0px 0px;
+}
+.collection_img img {
+    right: 206px;
+    width: 147px;
+}
+.fashion_section {
+    padding: 50px 0px 50px 0px;
+}
+.choose_set .choose_heading {
+    font-size: 40px;
+}
+.choose_img img {
+    right: 312px;
+    width: 174px;
+}
+.fashion_set .fashion_heading {
+    font-size: 18px;
+}
+.fashion_set .fashion_para {
+    font-size: 14px;
+}
+.testimonail_set .testimonail_para {
+    font-size: 118px;
+}
+.testimonail_set .testimonail_heading {
+    font-size: 40px;
+}
+.Testimonail_img img {
+    bottom: -24px;
+    right: 278px;
+    width: 165px;
+}
+.client_text .client_para {
+    font-size: 16px;
+}
+.client_See a {
+    font-size: 17px;
+}
+.easy_set .easy_heading {
+    font-size: 40px;
+}
+.easy_list li {
+    font-size: 15px;
+}
+.form_Set .form_heading {
+    font-size: 54px;
+}
+.form_Set .form_para {
+    font-size: 16px;
+}
+.Frequently_set .Frequently_heading {
+    font-size: 48px;
+}
+.footer_list .list_heading {
+    padding: 0px 0px 10px 0px;
+}
+.footer_list .address_set {
+    font-size: 16px;
+}
+.footer_list .address_para {
+    padding: 23px 0px 0px 0px;
+}
+.btm_footer_Set .copyright_heading {
+    font-size: 18px;
+}
+.footer_icons a{
+    font-size: 26px;
 }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:992px){
     .mobile_logo{
         display: none;
-}
-.nav_row_Set a {
-    font-size: 11px;
-}
-    .nav_row_Set img{
-        width: 90%;
+    }
+    .mobile_logo img{
+        width: 80%;
+        text-align: center;
+    }
+    .navbar_heading {
+        font-size: 22px;
+    }
+    .nav_row_Set a {
+        font-size: 9px;
+    }
+    .desktop_logo {
+        width: 100%;
+    }
+    .banner_btm .sign_heading {
+        font-size: 28px;
+        margin-bottom: -9px;
+    }
+    .banner_btm_set .banner_heading {
+        font-size: 36px;
+    }
+    .banner_btm_set span {
+        font-size: 58px;
+    }
+    .banner_btm_set .banner-para {
+        font-size: 14px;
+    }
+    .banner_btm_set .btn-shop {
+        font-size: 14px;
+    }
+    .banner_btm_set .btn-Explore {
+        font-size: 14px;
+    }
+    .selection_set .best_heading {
+        font-size: 71px;
+    }
+    .selection_section .seclection_heading {
+        font-size: 32px;
+        padding-top: 56px;
+    }
+    .best_img img {
+        right: 184px;
+        width: 220px;
+    }
+    .commitment_Set .commit_back {
+        font-size: 104px;
+    }
+    .commit_row_set a {
+        font-size: 50px;
+        width: 126px;
+        height: 126px;
+    }
+    .collection_Set .collection_heading {
+        font-size: 106px;
+    }
+    .collection_Set .wild_heading {
+        font-size: 36px;
+        padding: 59px 0px 0px 0px;
+    }
+    .collection_img img {
+        right: 230px;
+        width: 142px;
+    }
+    .choose_section {
+        padding: 50px 0px 50px 0px;
+    }
+    .testimonail_section {
+        padding: 20px 0px 20px 0px;
+    }
+    .testimonail_set .testimonail_para {
+        font-size: 104px;
+    }
+    .testimonail_set .testimonail_heading {
+        font-size: 54px;
+    }
+    .testimonail_set .testimonail_para {
+        display: none;
+    }
+    .Testimonail_img img {
+        bottom: -18px;
+        right: 180px;
+        width: 154px;
+    }
+    .easy_set .easy_heading {
+        font-size: 38px;
+    }
+    .Frequently_section {
+        padding: 50px 0px 50px 0px;
+    }
+    .Frequently_set .Frequently_heading {
+        font-size: 46px;
+    }
+    .Frequently_set .Frequently_asked {
+        display: none;
+    }
+    .footer_icons a{
+        font-size: 26px;
     }
 }
 
-@media (max-width:991px){
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    .mobile_logo{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar_heading {
+        font-size: 20px;
+    }
+    .nav_row_Set a {
+        font-size: 14px;
+    }
+    .header_icon a{
+        font-size: 20px;
+    }
     .desktop_logo{
         display: none;
+    }
+    .nav_row_Set{
+        text-align: center;
+    }
+    .second_row{
+        display: block;
+    }
+    .navbar_Set .second_row{
+        display: block!important;
+        padding: 20px 0px 0px 0px;
+    }
+    .nav_row_Set .contact_btn {
+        margin: 0px 0px 0px 0px;
+    }
+    .header_icon{
+        padding: 15px 0px 15px 0px;
+    }
+    .making_set {
+        padding: 30px 0px 30px 0px;
+        text-align: center;
+    }
+    .selection_set .best_heading {
+    display: none;
+    }
+    .selection_section .seclection_heading {
+        font-size: 35px;
+        padding-top: 35px;
+    }
+    
+    .selection_section span {
+        font-size: 36px;
+        line-height: 10px;
+    }
+    .best_img img {
+        right: 110px;
+        width: 210px;
+    }
+    .card_box_section{
+        text-align: center;
+    }
+    .card_img img{
+        width: auto;
+    }
+    .card_row {
+        text-align: center;
+    }
+    .card_content .client_para{
+        font-size: 30px;
+    }
+    .card_content .btn-shop{
+        font-size: 14px;
+    }
+    .commitment_section {
+        padding: 60px 0px 50px 0px;
+    }    
+    .commitment_Set .commit_back {
+       display: none;
+    }
+    .commitment_Set .commit_heading {
+        font-size: 54px;
+    }
+    .commit_row_set img{
+        width: 70%;
+    }
+    .commit_row_set h2 {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .collection_Set .collection_heading {
+        display: none;
+    }
+    .collection_Set .wild_heading {
+        font-size: 35px;
+        padding: 59px 0px 0px 0px;
+        line-height: 40px;
+    }
+    .collection_img img {
+        right: 118px;
+        width: 131px;
+    }
+    .price_section{
+        text-align: center;
+        padding: 50px 0px 20px 0px;
+    }
+    .price_img img{
+        width: auto;
+    }
+    .rating_star {
+        padding: 0px 0px 0px 0px;
+    }
+    .price_text .price_heading {
+        font-size: 18px;
+    }
+    .price_text .price_para {
+        font-size: 16px;
+        padding: 0px 0px 20px 0px;
+    }
+    .choose_section {
+        padding: 20px 0px 20px 0px;
+    }
+    .choose_set .Why_us {
+        display: none;
+    }
+    .choose_set .choose_heading {
+        font-size: 54px;
+    }
+    .choose_img img {
+        right: 145px;
+        width: 240px;
+        bottom: -24px;
+    }
+    .fashion_set img{
+        width: 16%;
+        padding: 10px 0px 0px 0px;
+    }
+    .fashion_set .fashion_heading {
+        font-size: 20px;
+    }
+    .fashion_set .fashion_para {
+        font-size: 16px;
+    }
+
+    .testimonail_set .testimonail_para {
+        font-size: 77px;
+    }
+    .Testimonail_img img {
+        bottom: -18px;
+        right: 92px;
+        width: 233px;
+    }
+    .client_text .client_heading {
+        font-size: 24px;
+    }
+    .client_text .client_para {
+        font-size: 16px;
+    }
+
+    
+    .easy_set .easy_heading {
+        font-size: 40px;
+    }
+    .easy_row{
+        padding: 25px 0px 0px 0px;
+    }
+    .img_set .easy_row_heading {
+        font-size: 22px;
+        padding: 10px 0px 20px 0px;
+    }
+    .img_set .easy_row {
+        padding: 20px 0px 0px 0px;
+    }
+    .form_section{
+        text-align: center;
+    }
+    .form_Set .form_heading {
+        padding: 30px 0px 0px 0px;
+    }
+    .form_Set .form_heading {
+        font-size: 56px;
+    }
+    .form_btn {
+        padding: 10px 0px 50px 0px;
+    }
+    .form_Set .submit_btn {
+        padding: 9px 14px 10px 14px;
+        font-size: 18px;
+    }
+    .Frequently_set .Frequently_heading {
+        font-size: 48px;
+    }
+    .Frequently_set .Frequently_asked {
+        display: none;
+    }
+    .footer_Section{
+        text-align: center;
+    }
+    .footer_row img {
+        padding: 16px 0px 0px 0px;
+    }
+    .footer_list{
+        padding: 30px 0px 0px 0px;
+    }
+    .footer_icons a{
+        font-size: 28px;
+    }
+    .bottom_footer{
+        text-align: center;
+    }
+    .btm_pay_icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:576px){
+    .navbar_heading {
+        font-size: 18px;
+    }
+    .nav_row_Set a {
+        font-size: 16px;
+    }
+    .mobile_logo img {
+        width: 90%;
+    }
+    .banner_btm_set .banner-para {
+        font-size: 18px;
+    }
+    .making_set {
+        padding: 30px 0px 40px 0px;
+    }
+    .selection_set .best_heading {
+       display: none;
+    }
+    .selection_section .seclection_heading {
+        font-size: 30px;
+        padding-top: 35px;
+    }
+    .best_img img {
+        right: 23px;
+        width: 202px;
+    }
+    .commitment_Set .commit_heading {
+        font-size: 54px;
+    }
+    .commitment_Set .commit_back {
+        display: none;
+    }
+    .collection_Set .collection_heading {
+        display: none;
+    }
+    .collection_Set .wild_heading {
+        font-size: 36px;
+    }
+    .collection_img img {
+        right: 22px;
+        width: 131px;
+    }
+    .price_text .price_para {
+        font-size: 16px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .choose_set .Why_us {
+        display: none;
+    }
+    .choose_set .choose_heading {
+        font-size: 54px;
+    }
+    .choose_img img {
+        right: 53px;
+        width: 231px;
+        bottom: -30px;
+    }
+    .fashion_set .fashion_heading {
+        font-size: 26px;
+    }
+    .fashion_set .fashion_para {
+        font-size: 18px;
+    }
+
+
+    .testimonail_set .testimonail_para {
+        display: none;
+    }
+    .testimonail_set .testimonail_heading {
+        font-size: 50px;
+    }
+    .Testimonail_img img {
+        bottom: -25px;
+        right: 20px;
+        width: 219px;
+    }
+
+    .testimonail_section {
+        padding: 22px 0px 22px 0px;
+    }
+    .client_See {
+        padding: 30px 0px 30px 0px;
+    }
+    .easy_set .easy_heading {
+        font-size: 32px;
+    }
+    .form_Set .form_heading {
+        font-size: 54px;
+    }
+    .form_Set .form_para {
+        font-size: 18px;
+    }
+
+
+    .Frequently_set .Frequently_heading {
+        font-size: 42px;
+    }
+    .Frequently_set .Frequently_asked {
+        display: none;
+    }
+    .Frequently_section {
+        padding: 50px 0px 50px 0px;
+    }
+    .footer_Section {
+        padding: 20px 0px 100px 0px;
+    }
+    .btm_footer_Set .copyright_heading {
+        font-size: 20px;
+        padding: 10px 0px 0px 0px;
+    }
+    .btm_pay_icon a {
+        font-size: 38px;
+        padding:10px 0px 0px 30px;
     }
 }
